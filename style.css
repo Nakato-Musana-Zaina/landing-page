@@ -128,7 +128,7 @@ border-radius: 15px;
 .image3{
     width: 50%;
 }
-@media screen and (min-widht:200px) and (max-width:990){
+@media screen and (min-width:200px) and (max-width:990){
     .nav{
         grid-template-columns: repeat(3 , 2fr)
     }
