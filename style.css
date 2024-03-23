@@ -1,5 +1,5 @@
 .body{
-    background-color: rgb(128, 109, 87);
+    background-color: rgb(240, 237, 233);
     font-size: x-large;
 }
 .nav{
@@ -24,11 +24,12 @@
     font-size: xx-large;
 }
 .silvertext{
-    color: silver;
+    color: rgb(140, 138, 138);
 }
 .appstore{
 background-color: rgb(2, 2, 65);
 border-radius: 15px;
+padding: 4px;
     
 
 }
@@ -56,7 +57,7 @@ border-radius: 15px;
     margin-left: 10%;
 }
 .silvertextlarge{
-    color: silver;
+    color: rgb(146, 144, 144);
     font-size: xx-large;
 }
 .div4{
@@ -128,13 +129,27 @@ border-radius: 15px;
 .image3{
     width: 50%;
 }
-@media screen and (min-width:200px) and (max-width:990){
+.first{
+    display: flex;
+    gap: 12%;
+}
+@media screen and (min-width:200px) and (max-width:490){
     .nav{
+        display: grid;
         grid-template-columns: repeat(3 , 2fr)
+
     }
     .bluediv{
-        grid-template-columns: repeat(2, 3fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
+    .blackdiv{
+        display: flex;
+        flex-direction: column;
+    }
+        
+
+
 }
     
 
