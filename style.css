@@ -7,6 +7,10 @@
     grid-template-columns: repeat(8, 1fr); 
     border: 1px solid;
     padding: 24px;
+    
+}
+.div2{
+    transform: rotate(340deg);
 }
 .button1{
     color: aliceblue;
@@ -18,6 +22,7 @@
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .redtext{
     color: red;
     text-decoration: underline;
@@ -39,7 +44,7 @@ padding: 4px;
 /* .div2{
     display: flex;
     gap: 25%; */
-}
+/* } */
 .first{
     display:flex;
 
@@ -133,21 +138,43 @@ padding: 4px;
     display: flex;
     gap: 12%;
 }
-@media screen and (min-width:200px) and (max-width:490){
+.div3{
+    transform: rotateX(30deg);
+}
+@media screen and (min-width:200px) and (max-width:790px){
     .nav{
         display: grid;
-        grid-template-columns: repeat(3 , 2fr)
+        grid-template-columns: repeat(2, 3fr);
+        display: block;
+        padding: 0 auto;
+        width: 80%
 
     }
     .bluediv{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
     }
     .blackdiv{
         display: flex;
         flex-direction: column;
     }
-        
+    .div2{
+        transform: rotate(360deg);
+        padding: 0 auto;
+    }
+    .first{
+        display: inline;
+    }
+    .div4{
+        flex-wrap: wrap;
+    }  
+    .center{
+        margin-left: 0%;
+    } 
+    .div5{
+        flex-wrap: wrap;
+    }
 
 
 }
